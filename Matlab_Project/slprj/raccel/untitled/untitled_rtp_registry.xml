@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_rtp_registry/R2023a">
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="6eb61eef-f8fb-4f74-80b3-991e8aef7682">
+    <parameter type="slsa.mm.rtpregistry.BooleanParameter" uuid="ffcee372-1cda-4397-bdfe-927ea799f82c"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>0</valueIndices>
+    <valueIndices>55</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="16673da6-e6ff-4eaa-91d7-bfed2d7bef9b">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="71323bd8-7f40-4e57-ac2c-5191cf5a7003"/>
+    <segmentIndex>3</segmentIndex>
+    <valueIndices>28</valueIndices>
+    <valueIndices>48</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.ModelMetadata type="slsa.mm.rtpregistry.ModelMetadata" uuid="96a6de16-a22b-4299-92cb-d1ebe6985f19">
+    <modelName>untitled</modelName>
+  </slsa.mm.rtpregistry.ModelMetadata>
+  <slsa.mm.rtpregistry.BooleanParameter type="slsa.mm.rtpregistry.BooleanParameter" uuid="ffcee372-1cda-4397-bdfe-927ea799f82c">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="8399996b-b4e5-4e70-9c8d-f92f073a6631"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="6eb61eef-f8fb-4f74-80b3-991e8aef7682"/>
+  </slsa.mm.rtpregistry.BooleanParameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="8399996b-b4e5-4e70-9c8d-f92f073a6631">
+    <blockPath>untitled/Hamming Decoder/Combinatorial Logic1</blockPath>
+    <name>TruthTable</name>
+    <parameter type="slsa.mm.rtpregistry.BooleanParameter" uuid="ffcee372-1cda-4397-bdfe-927ea799f82c"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="20fa00c4-87be-4ccf-8e6a-10f4d74de306">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="6ceb9080-48e6-4430-89b4-434b6d361375"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="29d8d037-52d5-4a8e-a56c-b5131f1c7ca5"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="6ceb9080-48e6-4430-89b4-434b6d361375">
+    <blockPath>untitled/Hamming Encoder/Gain</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="20fa00c4-87be-4ccf-8e6a-10f4d74de306"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="71323bd8-7f40-4e57-ac2c-5191cf5a7003">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="064626a7-a485-475e-bcf7-bd158846a457"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="16673da6-e6ff-4eaa-91d7-bfed2d7bef9b"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="29d8d037-52d5-4a8e-a56c-b5131f1c7ca5">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="20fa00c4-87be-4ccf-8e6a-10f4d74de306"/>
+    <segmentIndex>3</segmentIndex>
+    <valueIndices>0</valueIndices>
+    <valueIndices>27</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="064626a7-a485-475e-bcf7-bd158846a457">
+    <blockPath>untitled/Hamming Decoder/Gain</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="71323bd8-7f40-4e57-ac2c-5191cf5a7003"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+</MF0>
